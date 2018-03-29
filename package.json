@@ -1,0 +1,30 @@
+{
+  "name": "testrestapi",
+  "version": "1.0.0",
+  "description": "Teste de uma API REST com node",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abranti/testerestapinode.git"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "josue",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Abranti/testerestapinode/issues"
+  },
+  "homepage": "https://github.com/Abranti/testerestapinode#readme",
+  "devDependencies": {
+    "nodemon": "^1.17.2"
+  },
+  "dependencies": {
+    "express": "^4.16.3",
+    "pg": "^6.1.0"
+  }
+}
